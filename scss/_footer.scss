@@ -1,0 +1,19 @@
+.main-footer {
+  border-top: 1px solid $gray-300;
+  margin-top: 80px;
+
+  .logo {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 85px;
+    height: 85px;
+    background: url(../img/logo-circle-blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .disclaimer {
+    font-size: $font-size-xs;
+    text-align: center;
+  }
+}

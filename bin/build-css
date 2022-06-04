@@ -1,0 +1,9 @@
+sass scss/main.scss assets/css/main.min.css --style=compressed
+
+# sass --load-path=scss/main.scss --style=compressed > assets/css/main.min.css
+
+# sass scss/main.scss assets/css/main.min.css --style=compressed
+
+# sass scss/main.scss:assets/css/main.min.css --style=compressed scss
+
+# sass scss/main.scss:assets/css/main.min.css --style=compressed scss

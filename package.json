@@ -1,0 +1,13 @@
+{
+  "name": "Maps",
+  "version": "1.0.0",
+  "description": "watch and compile scss",
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
+  },
+  "devDependencies": {
+    "sass": "^1.49.8",
+    "nodemon": "^2.0.7"
+  }
+}

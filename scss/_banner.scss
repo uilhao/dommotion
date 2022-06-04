@@ -1,0 +1,39 @@
+$padding: $nav-height + $navbar-padding-x + $navbar-padding-y + 3rem;
+
+.banner {
+  @include breakpoints(xs, sm, md) {
+    padding: 3rem 0;
+    background-size: contain;
+  }
+
+  @include breakpoints(lg) {
+    padding: 5rem 0;
+    background-size: contain;
+  }
+
+  background: url("../img/banner-outubro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  color: $white;
+  text-shadow: 1px 1px $gray-500;
+  margin-bottom: 2rem;
+  padding: 9.8rem 0;
+  border-top: 1px solid $gray-400;
+  border-bottom: 1px solid $gray-400;
+
+  h1 {
+    text-transform: none;
+    text-decoration: underline;
+  }
+
+  .btn {
+    background-color: $blue;
+    border-color: $blue;
+    text-shadow: none;
+  }
+
+  .lead {
+    color: $white;
+  }
+}

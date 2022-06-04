@@ -1,0 +1,3 @@
+sass scss/main.scss assets/css/main.min.css --style=compressed --watch
+
+# nodemon -e scss -x "npm run build-css"
